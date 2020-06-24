@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h4>I - blocs positioning</h4>
+    
+    <div class="container text-center">
+
+        <div class="row">
+
+            <div class="col border border-dark rounded justify-content-between">
+                <p>12 colonnes</p>
+                <div class="row justify-content-around">
+                    <div class="col-2 border border-dark rounded">Coucou</div>
+                    <div class="col-3 border border-dark rounded">ça</div>
+                    <div class="col-2 border border-dark rounded">va ?</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h4>II - imbricated elements</h4>
+
+    <!-- <div class="containerLeft">
+        <div class="row">
+            <div class="col">Nouvel</div>
+        </div>
+    </div> -->
+    
+    <div class="container">
+         <div class="row">
+            <div class="col-3 border border-dark">Nouvel</div>
+            <div class="col-9 border border-dark">Exercice
+
+                <div class="row">
+                    <div class="col-3 border border-dark rounded">Ces</div>
+                    <div class="col-6 border border-dark rounded">blocs sont tous</div>
+                    <div class="col-3 border border-dark rounded">dans</div>
+                </div>
+
+                <div class="row">
+                    <div class="col border border-dark rounded">la même</div>
+                    <div class="col border border-dark rounded">div où est</div>
+                    <div class="col border border-dark rounded">inscrit "Exercice".</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-5 border border-dark rounded">comment</div>
+                    <div class="col-2 border border-dark rounded">est</div>
+                    <div class="col-5 border border-dark rounded">ce possible ?</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <h4>III - change elements order</h4>
+
+            <div class="container border border-dark rounded">
+                <div class="row"></div>
+                    <div class="col">12 colonnes</div>
+            
+                    <div class="row justify-content-around">
+                        <div class="col-2 border border-dark rounded">bloc 1 de 2</div>
+                        <div class="col-2 order-3 border border-dark rounded">bloc 2 de 2</div>
+                        <div class="col-2 order-2 border border-dark rounded">bloc 3 de 2</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <h4>IV - practice makes good</h4>
+    <div class="container border border-dark rounded">
+        <div class="row">
+            <div class="col-6 border border-dark rounded">
+                Container Left
+            </div>
+            <div class="col-6 border border-dark rounded">
+                Container Right
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
