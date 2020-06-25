@@ -1,0 +1,10 @@
+div[class^="col"] {
+    background-color: #d8d8d8;
+    border: 1px solid rgb(145, 145, 145);
+    text-align: center;
+    line-height: 50px;
+}
+
+h5 {
+    margin: 30px;
+}
